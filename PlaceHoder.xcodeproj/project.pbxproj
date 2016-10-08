@@ -13,6 +13,7 @@
 		087607621D9F50C700DC3085 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 087607601D9F50C700DC3085 /* Main.storyboard */; };
 		087607641D9F50C700DC3085 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 087607631D9F50C700DC3085 /* Assets.xcassets */; };
 		087607671D9F50C700DC3085 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 087607651D9F50C700DC3085 /* LaunchScreen.storyboard */; };
+		087607701D9F51F200DC3085 /* OXTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0876076F1D9F51F200DC3085 /* OXTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		087607631D9F50C700DC3085 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		087607661D9F50C700DC3085 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		087607681D9F50C700DC3085 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0876076E1D9F51F200DC3085 /* OXTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OXTextView.h; sourceTree = "<group>"; };
+		0876076F1D9F51F200DC3085 /* OXTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OXTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				0876075B1D9F50C700DC3085 /* AppDelegate.m */,
 				0876075D1D9F50C700DC3085 /* ViewController.h */,
 				0876075E1D9F50C700DC3085 /* ViewController.m */,
+				0876076E1D9F51F200DC3085 /* OXTextView.h */,
+				0876076F1D9F51F200DC3085 /* OXTextView.m */,
 				087607601D9F50C700DC3085 /* Main.storyboard */,
 				087607631D9F50C700DC3085 /* Assets.xcassets */,
 				087607651D9F50C700DC3085 /* LaunchScreen.storyboard */,
@@ -150,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				087607701D9F51F200DC3085 /* OXTextView.m in Sources */,
 				0876075F1D9F50C700DC3085 /* ViewController.m in Sources */,
 				0876075C1D9F50C700DC3085 /* AppDelegate.m in Sources */,
 				087607591D9F50C700DC3085 /* main.m in Sources */,
